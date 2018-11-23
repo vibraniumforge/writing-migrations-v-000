@@ -7,5 +7,9 @@ class CreateStudents < ActiveRecord::Migration[5.1]
     t.string :hometown
   end
 end
+
+def change
+   add_column :artists, :name, :string
+ end
   
 end
